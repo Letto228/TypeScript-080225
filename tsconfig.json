@@ -5,7 +5,12 @@
     "allowJs": true,
     "strict": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["./types"],
+    "types": ["app-window", "css-modules", "external-library"],
+    // "types": ["./types/app-window"],
   },
   "include": ["src"],
   "exclude": ["src/**/*.spec.ts"],

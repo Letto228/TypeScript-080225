@@ -32,13 +32,13 @@
 // }
 
 
-interface Extend {
-    property: string;
-}
+// interface Extend {
+//     property: string;
+// }
 
-type Test = Extend & {
-    name: string;
-}
+// type Test = Extend & {
+//     name: string;
+// }
 
 // interface Extend {
 //     name: string
